@@ -30,7 +30,7 @@ const LoginBootstrap = () => {
     }
 
     const handleEmailBlur = event => {
-        const email = email.target.value;
+        const email = event.target.email.value;
         setUserEmail(email);
         console.log(email);
     }
